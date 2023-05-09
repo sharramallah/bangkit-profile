@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portofolio Sharina</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="header">
+          <div id="navbar" class="navbar">
+            <div id="home" class="link">
+              <a href="#navbar">Home</a>
+            </div>
+            <div class="link"><a href="#profile">Profile</a></div>
+            <div class="link"><a href="#skill">Skill</a></div>
+            <div class="link"><a href="#portfolio">Portfolio</a></div>
+          </div>
+          <div class="nav-body">
+            <div class="kotak-title">
+              <div class="me">I am...</div>
+              <div class="subme">Designer</div>
+              <div class="subme">&</div>
+              <div class="subme">Developer</div>
+            </div>
+            <div class="kotak-img">
+              <img src="./img/sharin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="body">
+          <aside>
+            <div id="profile" class="profile">
+              <div class="pkiri">
+                <div class="p">Profile</div>
+              </div>
+              <div class="pkanan">
+                <article class="bio">
+                  Sharina Fitrani Ramallah is a graduate of UIN Sunan Gunung
+                  Djati Bandung, Indonesia, holding a Bachelor's degree in
+                  Engineering. She is a creative and unique individual who has a
+                  passion for designing interesting product designs. With her
+                  ability to combine art and engineering, Sharina has created
+                  several innovative product designs that have captured the
+                  attention of many.
+                </article>
+                <article>
+                  <p class="bio">
+                    In addition to her skills in product design, Sharina is also
+                    a Junior Developer, specializing in web development. She has
+                    been involved in the development of various web-based
+                    applications. Her experience in both product design and web
+                    development has enabled her to create visually appealing and
+                    highly functional websites that meet the needs of her
+                    clients. Sharina is a highly motivated individual who is
+                    always willing to take on new challenges and strives to
+                    achieve excellence in all that she does.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </aside>
+          <div id="skill" class="skills">
+            <div class="bungkus">
+              <div class="satas">Skills</div>
+              <div class="sbawah">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JAVASCRIPT</div>
+                <div class="skill-item">REACT</div>
+                <div class="skill-item">NODE.JS</div>
+                <div class="skill-item">TAILWIND CSS</div>
+                <div class="skill-item">BOOTSTRAP</div>
+                <div class="skill-item">PHOTOSHOP</div>
+                <div class="skill-item">ILUSTRATOR</div>
+                <div class="skill-item">COREL DRAW</div>
+                <div class="skill-item">BLENDER</div>
+                <div class="skill-item">UI/UX</div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio">
+            <div class="bungkus-p">
+              <div id="portfolio" class="p-atas">Portfolio</div>
+              <div id="BTN">
+                <button class="btn active" onclick="pilihFilter('all')">
+                  Show all
+                </button>
+                <button class="btn" onclick="pilihFilter('ui')">UI</button>
+                <button class="btn" onclick="pilihFilter('ilustrasi')">
+                  Ilustrasi
+                </button>
+                <button class="btn" onclick="pilihFilter('web')">Web</button>
+              </div>
+              <div class="p-bawah">
+                <div class="item ui">
+                  <div class="gambar">
+                    <img class="pict" src="./img/Dashboard.png" alt="" />
+                  </div>
+                  <div class="tulisan">
+                    <p class="judul-item">UI UX</p>
+                    <p class="sub-judul-item">"Wargaku : Sistem Layanan RT"</p>
+                  </div>
+                </div>
+
+                <div class="item ilustrasi">
+                  <div class="gambar">
+                    <img class="pict" src="./img/ilustrasi.jpeg" alt="" />
+                  </div>
+                  <div class="tulisan">
+                    <p class="judul-item">ILUSTRASI</p>
+                    <p class="sub-judul-item">3D Ilustrasi</p>
+                  </div>
+                </div>
+
+                <div class="item web">
+                  <div class="gambar">
+                    <img class="pict" src="./img/Dashboard.png" alt="" />
+                  </div>
+                  <div class="tulisan web">
+                    <p class="judul-item">Web</p>
+                    <p class="sub-judul-item">"Wargaku : Sistem Layanan RT"</p>
+                  </div>
+                </div>
+
+                <div class="item ilustrasi">
+                  <div class="gambar">
+                    <img class="pict" src="./img/flat-ilustasi.png" alt="" />
+                  </div>
+                  <div class="tulisan">
+                    <p class="judul-item">ILUSTRASI</p>
+                    <p class="sub-judul-item">Flat Ilustrasi : UI</p>
+                  </div>
+                </div>
+                <div class="item web">
+                  <div class="gambar">
+                    <img class="pict" src="./img/todo.jpeg" alt="" />
+                  </div>
+                  <div class="tulisan">
+                    <p class="judul-item">Web</p>
+                    <p class="sub-judul-item">"To Do List"</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="footer-name">Sharina Fitrani Ramallah</div>
+            <div class="sosmed">
+              <div class="icon">
+                <a href="https://www.instagram.com/sharina.fr/">IG</a>
+              </div>
+              <div class="icon">
+                <a href="https://id.pinterest.com/aeshardesign/">Pinterest</a>
+              </div>
+            </div>
+            <div class="copyright">Copyright 2023</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
